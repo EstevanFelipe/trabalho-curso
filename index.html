@@ -1,27 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modulo 7</title>
-    <link rel="stylesheet" href="./CSS/style.main.css">
+    <title>Integrando JS ao HTML</title>
+    <style>
+        
+    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container">
-        <h2>Validação de Formulário</h2>
-        <form action="" id="my-form">
+    <div id="container">
+        <form id="meuForm" name="meuForm">
             <label for="campoA">Campo A :</label>
-            <input type="number" id="campoA" name="campoA" required><br><br>
+            <input type="number" id="campoA" name="campoA"><br>
             <label for="campoB">Campo B :</label>
-            <input type="number" id="campoB" name="campoB" required><br><br>
-            <button type="submit" class="submit">Resultado</button>
-            <button type="reset" class="reset" onclick="resetForm()">Reset</button>
+            <input type="munber" id="campoB" name="campoB"><br>
+            <button type="submit" value="submit" onclick="">submit</button>
+            <button type="reset" value="reset">reset</button>
         </form>
-        <div id="mensagem">
-            <p class=".mensagem-sucesso"></p>
+        <div id="mensagemBox">
+            <p class=".mensagem-sucesso"><b>Campo B</b> é maior que o <b>Campo A</b>!!!</p>
         </div>
     </div>
 
-    <script src="./JavaScript/main.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>

@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #add8e6; /* Cor de fundo azul claro */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border: 2px solid #0000ff; /* Borda azul */
+    background-color: #f0f8ff; /* Cor de fundo azul muito claro */
+}
+
+input, button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0000ff; /* Cor de fundo azul */
+    color: #ffffff; /* Cor do texto branco */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6495ed; /* Cor de fundo azul médio ao passar o mouse */
+}
+
+#mensagemBox {
+    width: 225.6px;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid #0000ff; /* Borda azul */
+    background-color: #f0f8ff; /* Cor de fundo azul muito claro */
+}
+
+#mensagemBox .mensagem-sucesso {
+    color: #f0f8ff;
+    background-color: #B9DF8A;
+    padding: 2px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
